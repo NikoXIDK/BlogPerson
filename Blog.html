@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="./css/Blog.css">
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a Mi Blog Personal!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <div class="sobre-mi-content">
+            <p>
+                Soy un estudiante actual de la Unidad Educativa Uyumbicho y desde siempre he sentido un gran interés por el mundo de la informática. Mi deseo más profundo es especializarme en este fascinante campo que ofrece infinitas posibilidades de crecimiento y desarrollo.
+                <br><br>
+                Aunque hasta ahora me considero un estudiante promedio sin muchos logros a destacar, llevo en mi corazón grandes deseos de alcanzar mis metas y hacer realidad mis sueños. Uno de esos sueños, que es mi verdadera pasión, reside en el campo de la robótica. Sueño con llevar a cabo proyectos significativos que contribuyan al avance de esta emocionante área.
+                <br><br>
+                Agradezco profundamente el sólido respaldo que he recibido de mi familia y amigos. Reconozco que el camino hacia mis aspiraciones requerirá esfuerzos individuales significativos, pero estoy seguro de que con dedicación y determinación podré convertir esos sueños en realidad.
+                <br><br>
+                Aprecio profundamente el apoyo que he recibido hasta ahora, y sé que cada logro será el resultado de mis esfuerzos personales respaldados por el aliento de quienes me rodean.
+            </p>
+            <img src="./Imagenes/Yo.jpeg" alt="Yo">
+        </div>
+    </section>
+
+        <section>
+            <h2>Mis Pasatiempos</h2>
+            <p>
+                Tengo muchos pasatiempos, pero por lo general, mis días están llenos de música y juegos. Escuchar música es una parte integral de mi vida diaria; me sumerge en diferentes estados de ánimo y me ayuda a concentrarme mientras trabajo en mis proyectos. Desde clásicos atemporales hasta las últimas tendencias, la música siempre está presente en mi día a día.
+                <br><br>
+                Además, disfruto de los videojuegos como una forma de escapar del estrés y la rutina. Sumergirme en mundos virtuales y enfrentarme a desafíos emocionantes es una experiencia que me relaja y me divierte. Aunque algunos puedan considerarlo un pasatiempo común, para mí es una forma de expresión y entretenimiento que disfruto enormemente.
+                <br><br>
+                Aparte de la música y los juegos, también me encanta explorar nuevas tecnologías, leer libros de ciencia ficción y pasar tiempo al aire libre disfrutando de la naturaleza. Para mí, la vida está llena de aventuras esperando ser descubiertas, y cada día es una oportunidad para aprender algo nuevo y emocionante.
+            </p>
+        </section>
+    <section>
+        <h2>Artículos Recientes</h2>
+        <ul>
+            <li><a href="#">Cómo Empezar en el Mundo de la Programación</a></li>
+            <li><a href="#">Los Beneficios de Aprender un Nuevo Idioma de Programación</a></li>
+            <li><a href="#">Consejos para Crear tu Primer Proyecto de Robótica</a></li>
+        </ul>
+    </section>
+    <section class="galeria">
+        <div class="imagen-container">
+            <img src="./Imagenes/Cojimies.jpg" alt="Aventura 1">
+            <div class="texto">Playa de Cojimies</div>
+        </div>
+        <div class="imagen-container">
+            <img src="./Imagenes/Laika.jpg" alt="Aventura 2">
+            <div class="texto">Mi perrita laika</div>
+        </div>
+        <div class="imagen-container">
+            <img src="./Imagenes/Bosue.jpg" alt="Aventura 3">
+            <div class="texto">Paseo por un bosque</div>
+        </div>
+        <div class="imagen-container">
+            <img src="./Imagenes/Quito.jpg" alt="Aventura 4">
+            <div class="texto">Aventuras por Quito</div>
+        </div>
+        <div class="imagen-container">
+            <img src="./Imagenes/Quito2.jpg" alt="Aventura 5">
+            <div class="texto">Otra aventura por quito</div>
+        </div>
+        <div class="imagen-container">
+            <img src="./Imagenes/Zhumir.jpg" alt="Aventura 6">
+            <div class="texto">De fiesta</div>
+        </div>
+    </section>
+    <section>
+        <h2>Comentarios</h2>
+        <form id="comentarios-form">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="comentarios-lista">
+            <!-- Aquí se mostrarán los comentarios -->
+        </div>
+    </section>
+    
+    <br><br><br>
+    <footer>
+        <p>Derechos de autor © 2024 Mi Blog Personal</p>
+    </footer>
+</body>
+</html>
